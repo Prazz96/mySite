@@ -1,0 +1,181 @@
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  /*align every thing in center(for non box elements)*/
+  font-family: 'Merienda', cursive;
+}
+
+h1 {
+  width: 60%;
+  /*for box elements*/
+  margin: 2em auto 0 auto;
+  /*top,bottom zero and auto will center horizontally*/
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem; /*100% = 16px = 1em */
+  /*font size adds on the font size of body if mentioned in body in % or in em, it won't addup if mentioned in pixels.*/
+  /*if we specify 5.62rem it will take that value and neglect all values.*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Merienda', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Merienda', cursive;
+  color: #11999E;
+}
+p{
+  line-height: 2;
+}
+
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+
+.top-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.span {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  /*as bottom-cloud is as child of parent top-container, top-container must be relative in position*/
+  position: absolute;
+  /*absolute as its a child*/
+  top: 380px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  /*absolute as its a child*/
+  right: 300px;
+}
+
+.middle-container {
+  background-color: #cbf1f5;
+  padding: 100px 20px 60px 20px;
+}
+
+.bottom-container {
+  background-color: #163f4d;
+  padding: 50px 0 20px;
+}
+hr{
+  border-style: none;    /* can also be written as border: dotted #17bebb 6px; */
+  border-top-style: dotted;
+  border-color: #17bebb;
+  border-width: 6px;
+  /* height: 0px; /*we can remove thi line, result will be same* */
+  width: 5%;
+  margin: 2.5em auto 2.5em auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 20px auto 100px auto; /*to center the element*/
+  text-align: left;
+}
+
+.profile-picture{
+  width: 200px;
+  text-align: center;
+}
+
+.intro{
+  width: 30%;
+  margin: auto;    /*to align text in center*/
+}
+.skills-picture1{
+  width: 200px;
+  float: left; /*lets the text wrap around the picture*/
+  margin-right: 30px;
+}
+.skills-picture2{
+  width: 200px;
+  float: right; /*lets the text wrap around the picture*/
+  margin-left: 30px;
+}
+.skills-picture3{
+  width: 200px;
+  float: left; /*lets the text wrap around the picture*/
+  margin-right: 30px;
+}
+/*    unfloats the text around picture
+.skills-picture1-paragraph{
+  clear: left;}
+*/
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px; /*to center align*/
+}
+
+.footer-link{
+  padding: 10px;
+}
+
+#footer-tm{
+  color: #599bb3;
+  font-size: .75rem;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+}
+#footer-tm:hover{
+  color: #276873;
+}
+/***********Contact me **********/
+.tron {
+	-moz-box-shadow: 0 10px 14px -7px #276873;
+	-webkit-box-shadow: 0 10px 14px -7px #276873;
+	box-shadow: 0 10px 14px -7px #276873;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99) );
+	background:-moz-linear-gradient( center top, #599bb3 5%, #408c99 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99');
+	background-color:#599bb3;
+	-webkit-border-top-left-radius:8px;
+	-moz-border-radius-topleft:8px;
+	border-top-left-radius:8px;
+	-webkit-border-top-right-radius:8px;
+	-moz-border-radius-topright:8px;
+	border-top-right-radius:8px;
+	-webkit-border-bottom-right-radius:8px;
+	-moz-border-radius-bottomright:8px;
+	border-bottom-right-radius:8px;
+	-webkit-border-bottom-left-radius:8px;
+	-moz-border-radius-bottomleft:8px;
+	border-bottom-left-radius:8px;
+text-indent:0;
+	display:inline-block;
+	color:#b2eaf7;
+	font-family: 'Merienda', cursive;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+height:50px;
+	line-height:50px;
+width:140px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:0 1px 0 #3d768a;
+}.tron:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3) );
+	background:-moz-linear-gradient( center top, #408c99 5%, #599bb3 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3');
+	background-color:#408c99;
+}.tron:active {
+	position:relative;
+	top:1px;
+}

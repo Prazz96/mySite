@@ -1,0 +1,80 @@
+body {
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+  /*align every thing in center(for non box elements)*/
+  font-family: 'Merienda', cursive;
+}
+
+h1 {
+  width: 60%;
+  /*for box elements*/
+  margin: 2em auto 0 auto;
+  /*top,bottom zero and auto will center horizontally*/
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem; /*100% = 16px = 1em */
+  /*font size adds on the font size of body if mentioned in body in % or in em, it won't addup if mentioned in pixels.*/
+  /*if we specify 5.62rem it will take that value and neglect all values.*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Merienda', cursive;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Merienda', cursive;
+  color: #11999E;
+}
+
+a{
+  color: #11999E;
+}
+
+.top-container {
+  background-color: #e3fdfd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.ent {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  /*as bottom-cloud is as child of parent top-container, top-container must be relative in position*/
+  position: absolute;
+  /*absolute as its a child*/
+  top: 300px;
+  left: 400px;
+}
+
+.top-cloud {
+  position: absolute;
+  /*absolute as its a child*/
+  right: 300px;
+}
+
+.middle-container {
+  background-color: #cbf1f5;
+  padding: 20px 20px;
+}
+
+.bottom-container {
+  background-color: #71c9ce;
+}
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #17bebb;
+  border-width: 6px;
+  /* height: 0px; /*we can remove thi line, result will be same* */
+  width: 50%;
+  margin: 2.5em auto 2.5em auto;
+}
+.picture{
+  width: 200px;
+}
