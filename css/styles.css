@@ -63,9 +63,17 @@ a{
   right: 300px;
 }
 
+.top-cloud {
+  position: absolute;
+  /*absolute as its a child*/
+  right: 300px;
+}
+
 .middle-container {
   background-color: #cbf1f5;
   padding: 100px 20px 60px 20px;
+  z-index: 10;
+  position: relative;
 }
 
 .bottom-container {
