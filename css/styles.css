@@ -64,10 +64,13 @@ a{
   right: 300px;
 }
 
-.top-cloud {
-  position: absolute;
-  /*absolute as its a child*/
-  right: 300px;
+.mount {
+  width: 100%;
+height: 100px;
+position: fixed;
+bottom: 0;
+right: auto;
+display: flex;
 }
 
 .middle-container {
